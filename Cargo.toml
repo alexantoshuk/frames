@@ -1,0 +1,14 @@
+[package]
+name    = "frames"
+version = "0.1.0"
+authors = ["Ali <alexander.antoshuk@gmail.com>"]
+keywords = ["thumbnails", "frames"]
+description = "Generate frames image from video file"
+readme = "README.md"
+exclude = []
+edition = "2018"
+
+[dependencies]
+image  = "^0.23"
+ffmpeg-next = "^4.4"
+
